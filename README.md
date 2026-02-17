@@ -109,37 +109,37 @@ pip install vaderSentiment textblob transformers torch
 ```
 
 3. Run cells in order:
-Data loading
-EDA
-Cleaning pipeline
-Model pipelines
-Step 5 model application
-Step 6 evaluation & comparison
+- Data loading
+- EDA
+- Cleaning pipeline
+- Model pipelines
+- Step 5 model application
+- Step 6 evaluation & comparison
 
 4. For accuracy section:
-Export 100-sample file
-Manually label ground_truth column
-Re-import labeled file
-Run accuracy report cells
+- Export 100-sample file
+- Manually label ground_truth column
+- Re-import labeled file
+- Run accuracy report cells
 
-Results & Visualizations
+## Results & Visualizations
 
 The notebook includes:
-Text length histogram
-Descriptive statistics
-Before/after cleaning examples
-Model score outputs
-Accuracy reports
-Success and failure case reviews
-Model comparison table
+- Text length histogram
+- Descriptive statistics
+- Before/after cleaning examples
+- Model score outputs
+- Accuracy reports
+- Success and failure case reviews
+- Model comparison table
 
-Files Included: 
-Assignment_1.ipynb: main notebook
-https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews: Dataset used for sentiment analysis (50,000 movie reviews)
+## Files Included: 
+- Assignment_1.ipynb: main notebook
+- https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews: Dataset used for sentiment analysis (50,000 movie reviews)
 
-Final Recommendation
+## Final Recommendation
 
-For this dataset, the Transformer model is recommended for best accuracy and contextual understanding.
+The Transformer model is recommended for the best accuracy and contextual understanding.
 VADER is best when speed and simplicity are required.
 TextBlob is useful as a lightweight baseline.
 README.md — project documentation
