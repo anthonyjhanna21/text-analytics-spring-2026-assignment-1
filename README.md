@@ -106,6 +106,7 @@ Assignment_1.ipynb
 2. Install required packages if needed:
 ```python
 pip install vaderSentiment textblob transformers torch
+```
 
 3. Run cells in order:
 Data loading
