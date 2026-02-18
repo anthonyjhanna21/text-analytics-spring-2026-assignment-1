@@ -1,7 +1,9 @@
 Task: Text Cleaning Functions
-
+---
 Date: 2026-02-5
+---
 Time spent: 15 minutes
+---
 
 What I was trying to do:
 Build reusable Python text-cleaning functions for my sentiment analysis project, including removing HTML tags, URLs, rating patterns, special characters, and extra whitespace.
