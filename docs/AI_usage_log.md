@@ -82,9 +82,7 @@ AI example did not include whitespace normalization, which I added separately.
 
 
 
-Task: Build clean_text pipeline and edge case checks
-Date: 2026-02-5
-Time spent: 20 minutes
+Task: Build clean_text pipeline and edge case checks, Date: 2026-02-5, Time spent: 20 minutes
 ---
 What I was trying to do:
 Create one cleaning function to apply to my dataframe
@@ -107,16 +105,7 @@ Simple count checks make it easy to catch broken preprocessing early.
 AI Errors Found:
 None
 
-
-
-
-
-
-
-
-Task: Before/after cleaning spot-check helper
-Date: 2026-02-5
-Time spent: 10 minutes
+Task: Before/after cleaning spot-check helper, Date: 2026-02-5, Time spent: 10 minutes
 ---
 What I was trying to do:
 Create a quick way to visually compare raw vs cleaned reviews
