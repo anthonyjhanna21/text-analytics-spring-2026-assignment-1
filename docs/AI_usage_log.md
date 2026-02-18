@@ -1,6 +1,4 @@
-Task: Text Cleaning Functions
-Date: 2026-02-5
-Time spent: 15 minutes
+Task: Text Cleaning Functions,   Date: 2026-02-5,   Time spent: 15 minutes
 ---
 
 What I was trying to do:
