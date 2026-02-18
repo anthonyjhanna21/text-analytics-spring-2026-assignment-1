@@ -84,6 +84,11 @@ AI example did not include whitespace normalization, which I added separately.
 
 
 
+
+
+
+
+
 Task: Build clean_text pipeline and edge case checks
 Date: 2026-02-5
 Time spent: 20 minutes
@@ -108,6 +113,11 @@ Simple count checks make it easy to catch broken preprocessing early.
 
 AI Errors Found:
 None
+
+
+
+
+
 
 
 
@@ -153,6 +163,9 @@ I wanted reproducible samples and clearer labeled output.
 
 What I Learned:
 Filtering, sampling, and a small print helper is a good method to validate preprocessing results.
+
+
+
 
 
 
@@ -322,6 +335,10 @@ I wanted a compact comparison table showing how each model reacts to unusual inp
 
 What I Learned:
 Looping through a labeled edge-case dictionary is a good pattern for multi-model testing.
+
+
+
+
 
 
 
