@@ -79,24 +79,13 @@ Cleaning steps should be ordered to avoid repeated noise.
 AI Errors Found:
 AI example did not include whitespace normalization, which I added separately.
 
--
--
--
--
--
---
--
-
-
-
-
 
 
 
 Task: Build clean_text pipeline and edge case checks
 Date: 2026-02-5
 Time spent: 20 minutes
-
+---
 What I was trying to do:
 Create one cleaning function to apply to my dataframe
 
@@ -128,7 +117,7 @@ None
 Task: Before/after cleaning spot-check helper
 Date: 2026-02-5
 Time spent: 10 minutes
-
+---
 What I was trying to do:
 Create a quick way to visually compare raw vs cleaned reviews
 
@@ -177,7 +166,7 @@ Filtering, sampling, and a small print helper is a good method to validate prepr
 Task: VADER and TextBlob sentiment pipelines
 Date: 2026-02-10
 Time spent: 30 minutes
-
+---
 What I was trying to do:
 Set up VADER and TextBlob sentiment scoring. Create small pipeline functions so I could test sentiment outputs on a few sample reviews.
 
@@ -232,7 +221,7 @@ Lexicon models still need light preprocessing and are easier to test with small 
 Task: DistilBERT emotion model pipeline
 Date: 2026-02-10
 Time spent: 30 minutes
-
+---
 What I was trying to do:
 Load a pretrained DistilBERT emotion model and build a function that converts text into emotion probability scores for sampled reviews.
 
@@ -291,7 +280,7 @@ Example used different variable names; I aligned them with my existing dataframe
 Task: Edge-case sentiment comparison table
 Date: 2026-02-15
 Time spent: 15 minutes
-
+---
 What I was trying to do:
 Test my VADER, TextBlob, and DistilBERT pipelines on a few manual edge-case strings and combine all outputs into one dataframe.
 
@@ -351,7 +340,7 @@ Looping through a labeled edge-case dictionary is a good pattern for multi-model
 Task: Convert model scores to sentiment labels
 Date: 2026-02-15
 Time spent: 25 minutes
-
+---
 What I was trying to do:
 Turn VADER, TextBlob, and DistilBERT score outputs into positive/negative/neutral labels and apply them to a sampled dataframe.
 
